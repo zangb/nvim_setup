@@ -1,5 +1,4 @@
 vim.cmd 'let g:netrw_liststyle = 3'
-
 vim.wo.foldmethod = 'expr'
 vim.wo.foldexpr = 'v:lua.vim.treesitter.foldexpr()'
 
@@ -23,8 +22,8 @@ opt.ignorecase = true -- ignore case when search
 opt.smartcase = true -- mixed case in search causes case-sensitive search
 
 opt.cursorline = true
-opt.termguicolors = true
-opt.background = 'dark'
+--opt.termguicolors = true
+--opt.background = 'dark'
 opt.signcolumn = 'yes'
 
 opt.backspace = 'indent,eol,start'
